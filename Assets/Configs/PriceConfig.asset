@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b15c81c32860a4ea727f2a48b4f80e, type: 3}
+  m_Name: PriceConfig
+  m_EditorClassIdentifier: 
+  dictionary:
+  - gamePhase: 1
+    settlerPrice: 25
+    explorerPrice: 100
+    adventurerPrice: 400
+  - gamePhase: 2
+    settlerPrice: 100
+    explorerPrice: 400
+    adventurerPrice: 1600
+  - gamePhase: 3
+    settlerPrice: 600
+    explorerPrice: 2000
+    adventurerPrice: 6400
+  - gamePhase: 4
+    settlerPrice: 2000
+    explorerPrice: 6000
+    adventurerPrice: 25000
